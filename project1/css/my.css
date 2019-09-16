@@ -1,0 +1,121 @@
+
+.h {
+    position: fixed;
+    background-color: black;
+    color: snow;
+    text-shadow: red;
+    font-family:inherit;
+    font-size: 50px;
+    left: 100px;
+    right: 100px;
+    top: 10px;
+    outline-style: dashed;
+    outline-width: thick;
+    outline-color: lightsalmon;
+}
+
+.f {
+    position: fixed;
+    bottom: 20px;
+    left: 100px;
+    right: 100px;
+    font-size: 20px;
+    color: red;
+}
+
+.art {
+    background-color:whitesmoke;
+    position: relative;
+    margin-top: 120px;
+    width: 595px;
+    height: 430px;
+    margin-left: 100px;
+    outline-style: double;
+    outline-color: yellow;
+    outline-width: thick;
+}
+
+.art1 {
+    position: relative;
+    margin-top: -430px;
+    width: 570px;
+    height: 430px;
+    margin-left: 700px;
+    outline-style:solid;
+    outline-color: greenyellow;
+}
+
+.img {
+    float: left;
+    width: 300px;
+    
+    outline-style: solid;
+  outline-color:white;
+}
+
+.d {
+    color: navy;
+    
+}
+
+.na {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1170px;
+    height: 970px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    outline-style: groove;
+    outline-width: 20px;
+    outline-color: orangered;
+    background-color: blue;
+}
+
+.fa-fort-awesome {
+    color: aqua;
+}
+
+.im {
+    height: 200px;
+    width: 350px;
+}
+
+#im {
+    width: 120px;
+    height: 200px;
+}
+
+.im1 {
+    height: 350px;
+    width:585px;
+}
+
+
+
+.a {
+    background-color: red;
+    color: yellow;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+p {
+    color: white;
+   
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: -20px;
+}
+
+

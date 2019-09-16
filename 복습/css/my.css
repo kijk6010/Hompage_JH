@@ -1,0 +1,71 @@
+
+.a {
+    background-color: red;
+}
+
+.b {
+    font-size: 35px;
+    background-color: yellow;
+}
+
+
+
+.col-sm-2 {
+    background-color: antiquewhite;
+}
+
+.col-sm-5 {
+    background-color: lightpink;
+}
+
+.jumbotron {
+    background-color: coral;
+}
+
+.i {
+    background-color: lightcoral;
+}
+
+#i {
+    background-color: khaki;
+}
+
+#j {
+    background-color: cornsilk;
+}
+
+.ko {
+    color: navy;
+}
+
+#m {
+    background-color: chartreuse;
+    color: red;
+}
+
+.img-thumbnail {
+    width: 1000px;
+    border-color: crimson;
+    height:500px;
+}
+
+.z {
+    color: black;
+}
+
+.c {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.btn {
+    color: darkgreen;
+}
+
+.glyphicon {
+  color: darkviolet
+}
+
+#ma {
+    background-color: aquamarine;
+}

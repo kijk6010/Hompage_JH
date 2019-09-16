@@ -1,0 +1,38 @@
+
+.star {
+    width: 50px;
+}
+
+.son {
+    font-weight: bold;
+    color: navy;
+    text-shadow: 0 0 10px crimson;
+    font-size: 30px;
+}
+
+.zl {
+    color: firebrick;
+    font-weight: bold;
+    
+}
+
+h1 {
+    
+}
+
+
+
+mark {
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.n {
+    color: darkblue;
+}
+
+.k {
+    float: right;
+    margin-right: 100px;
+    margin-top: -70px;
+}

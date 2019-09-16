@@ -1,0 +1,90 @@
+
+.star {
+    width: 50px;
+}
+
+.son {
+    font-weight: bold;
+    color: navy;
+    text-shadow: 0 0 10px crimson;
+    font-size: 30px;
+}
+
+.zl {
+    color: firebrick;
+    font-weight: bold;
+    
+}
+
+
+.jumbotron {
+    background-color:crimson;
+    color: aliceblue;
+}
+
+.c {
+    background-color: navy;
+    
+    
+}
+
+
+
+.col-sm-2 {
+    background-color: aliceblue;
+}
+
+.col-sm-5 {
+    background-color: skyblue;
+}
+
+
+
+.col-sm-12 {
+    background-color: lightgoldenrodyellow;
+}
+
+.i {
+    background-color: deepskyblue;
+}
+
+
+
+
+
+.ko {
+    background-color: aliceblue;
+}
+
+.j {
+    background-color: aquamarine;
+}
+
+#i {
+    background-color: antiquewhite;
+}
+
+#j {
+    background-color:bisque;
+}
+
+#ma {
+    color: navy;
+    background-color: yellow;
+}
+
+h3 {
+    color: navy;
+    text-shadow: 0 0 4px deeppink;
+}
+
+.p {
+    font-size: 20px;
+    font-weight: 800;
+    color: brown;
+    text-shadow: 0 0 10px yellow;
+}
+
+.container {
+width: 1100px;
+}

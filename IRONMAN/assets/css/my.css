@@ -1,0 +1,53 @@
+
+.star {
+    width: 50px;
+}
+
+.son {
+    font-weight: bold;
+    color: navy;
+    text-shadow: 0 0 10px crimson;
+    font-size: 30px;
+}
+
+.zl {
+    color: firebrick;
+    font-weight: bold;
+    
+}
+
+.img {
+    float: left;
+    margin-left: 40px;
+}
+
+.d {
+    color: red;
+    font-weight: bolder;
+    text-shadow: 5px 0 0 yellow;
+}
+
+table {
+    outline-color: red;
+    outline-style: groove;
+    margin-left: -20px;
+}
+
+
+
+h2 {
+color: firebrick;
+}
+
+.p {
+    color: brown;
+}
+
+.a {
+    color: crimson;
+    text-shadow:  0 1px navy;
+}
+
+.i {
+    color: crimson;
+}

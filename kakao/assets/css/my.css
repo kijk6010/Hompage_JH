@@ -1,0 +1,44 @@
+
+.star {
+    width: 50px;
+}
+
+.son {
+    font-weight: bold;
+    color: navy;
+    text-shadow: 0 0 10px crimson;
+    font-size: 30px;
+}
+
+.zl {
+    color: firebrick;
+    font-weight: bold;
+    
+}
+
+.img {
+    float: left;
+    margin-left: 10px;
+  
+    
+}
+
+h1 {
+    color: brown;
+    text-shadow: 5px 0 5px   yellow;
+}
+
+p {
+  color: brown;
+text-shadow: 0 0 1px;
+}
+
+.p {
+    color: black;
+}
+
+h2 {
+    color: yellow;
+    text-shadow: 0 0 5px black;
+   
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>복습의 복습의 복습!!</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/my.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    
+    <div class="container">
+  <div class="jumbotron">
+    <h1>Inline SVG vs Icon Fonts [CAGEMATCH]</h1>
+      <h2>아이콘 글꼴 vs 인라인</h2>
+      <p>If you're building an icon system for a site, you have some options. If you know the icons need to be raster images, then you'll likely be using CSS sprites. If the icons will be vector images (much more common these days), you have some options. Two of those options are <mark class="a">using inline SVG</mark> and <mark class="a">using icon fonts</mark>.
+<br><br>
+          <button data-toggle="collapse" data-target="#demo" class="c">해석문</button>
+
+<div id="demo" class="collapse">
+ <p>당신이 사이트에 대한 아이콘 시스템을 구축하는 경우, 당신은 몇 가지 옵션이 있습니다. 당신이 아이콘 래스터 이미지 할 필요가 알고 있다면, 당신은 가능성이 CSS 스프라이트를 사용하여 수 있습니다.아이콘 (훨씬 더 일반적인 요즘) 벡터 이미지 일 경우에는 몇 가지 옵션이 있습니다. 이러한 옵션에는 <mark class="a">inline SVG을 사용하는 것</mark>과 <mark class="a">icon fonts을 사용하는 것</mark>이 있습니다.
+</div> 
+          <center><strong><mark class="b">우리 비교해보도록 합시다!!!</mark></strong></center></p> 
+  </div>
+    
+     <div class="alert alert-success">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+         <b>Success!! 확인하셨음 지워주세요!</b>
+</div>
+        <center><button type="button" class="btn btn-danger"><a id="m" href="https://css-tricks.com/icon-fonts-vs-svg/"><ins>원본을 보시려면 눌러주세요~!!</ins></a></button></center><br>
+    <div class="dropdown">
+ <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" id="select"><b>원하는 곳으로 바로 가봐용~!!!</b>
+   <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#Vector">Icon are Vector</a></li>
+      <li><a href="#Control">CSS Control</a></li>
+      <li><a href="#Position">Positioning</a></li>
+        <li><a href="#Weird">Weird Failures</a></li>
+        <li><a href="#Forced">Forced Failures</a></li>
+        <li><a href="#Semantics">Semantics</a></li>
+        <li><a href="#Accessibility">Accessibility</a></li>
+        <li><a href="#Ease">Ease of Use</a></li>
+        <li><a href="#Support">Browser Support</a></li>
+        <li><a href="#Winner">Winner</a></li>
+       </ul>
+     </div>
+      <!-- Container (About Section) -->
+<div id="Vector" class="container-fluid">
+<div class="row bg-danger">
+    <div class="col-sm-12 well">
+        <h3>Icons are Vector</h3>
+        <p>There are big advantages to vector icons: resizable up and down without losing quality, extra sharp on retina displays, and small file size among them.</p>
+         <p class="ko">vertor icons의 큰 장점들: 품질을 잃지 않고 위 아래로 크기조정 가능,작은 크기로도 선명하게 보여줌.</p>
+   <div class="table-responsive">  
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td class="i"><b>Icons are Vector</b></td>
+        <td id="i">Browsers consider it text, so the icons are anti-aliased as such. Can lead to icons not being as sharp as you might expect. <p class="ko"> 브라우저가 텍스트를 고려, 그래서 아이콘과 같은 앤티 앨리어싱됩니다. 아이콘 당신이 기대하는만큼 선명함함이 없는 상황이 발생합니다.</p></td>
+          <td id="j">Straight up vector <p class="ko">벡터 방향으로 향해 갑니다.</p></td>
+       
+      </tr>
+      </tbody>
+      
+       </table></div>
+        <p>In a recent personal example, while converting some icons from fonts to SVG on CodePen, some of the font icons were noticeably less sharp than the ones I converted over.</p>  <p class="ko">최근 개인용의 예에서 CodePen에 SVG로 글꼴에서 일부 아이콘을 변환하는 동안 글꼴 아이콘 중 일부는 내가 통해 변환 된 것보다 눈에 띄게 덜 선명했다.</p> <div class="col-sm-12"><img src="img/Vector.png"  class="img-thumbnail"></div></div> </div></div>
+                                     <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+        <!-- Container (About Section) -->
+<div id="Control" class="container-fluid">
+        <div class="row bg-danger">
+    <div class="col-sm-12 well">
+        <h3>CSS Control</h3>
+        <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+       <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>CSS Control</b></td>
+        <td id="i">You can control the size (via font-size), color, shadows, rotation, etc. via CSS.
+            <p class="ko">당신은 CSS를 통해 등, 색상, 그림자, 회전, (글꼴 크기를 통해) 크기를 제어 할 수 있습니다.</p></td>
+                  <td id="j">You have all the same CSS control as with a font, but better, because you can 1) control individual parts of a multi-part icon and 2) use SVG-specific CSS like stroke properties.
+                  <p class="ko">당신은 글꼴과 마찬가지로 모두 같은 CSS를 제어 할 수 있지만 더 나은 이유로는 1)여러 부분의 아이콘의 각 부분을 제어하고 2)스트로크 속성 같은 SVG 고유의 CSS를 사용합니다.</p></td>
+      </tr>
+        </tbody>
+            </table></div>
+    <p>The big win for inline SVG here is probably multi-color icons.</p>
+        <p class="ko">여기에서 inline SVG에 대한 큰 승리는 아마 멀티 컬러 아이콘입니다.</p></div></div></div>                                   <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+            <!-- Container (About Section) -->
+<div id="Position" class="container-fluid">
+            <div class="row bg-danger">
+    <div class="col-sm-12 well">
+        <h3>Positioning</h3>
+         <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+       <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>Positioning</b></td>
+        <td id="i">It can be frustrating to position a font icon. The icons are inserted via pseudo element, and it depends on line-height, vertical-align, letter-spacing, word-spacing, how the font glyph is designed (does it naturally have space around it? does it have kerning information?). Then the pseudo elements display type affects if those properties have an effect or not.<p class="ko">이 글꼴 아이콘을 배치 할 수 복잡 할 수 있습니다. 아이콘은 의사 요소를 통해 삽입하고, 글꼴 문양이 디자인 된 방식 라인 높이, 수직 정렬, 편지 - 간격, 단어 간격에 따라 결정된다 (이것은 자연적으로 주위 공간이 있습니까?이 커닝 정보를 가지고 있습니까?) . 이러한 성질은 효과가없는 경우, 또는 유사 소자 디스플레이 유형에 영향을 미친다.</p></td>
+                  <td id="j">SVG just is the size that it is. <p class="ko">SVG는 일반적 크기를 가지고 있습니다.</p></td>
+      </tr></tbody>
+             </table></div>
+        <div class="col-sm-6"><img src="img/position.png" width="400"><br>See how the pseudo element box isn't quite where the glyph actually is.
+            <p class="ko">글리프가 실제로 어디 의사 요소 상자가 아주없는 방법을 참조하십시오.</p></div>
+        <div class="col-sm-6"><img src="img/position2.png" width="400" height="250"><br>The SVG box is the size of the SVG.
+        <p class="ko">SVG 상자가 SVG의 크기입니다.</p></div></div></div></div>                                     <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+                <!-- Container (About Section) -->
+<div id="Weird" class="container-fluid">
+             <div class="row bg-danger">
+    <div class="col-sm-12 well">
+          <h3>Weird Failures</h3>
+         <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>Weird Failures</b></td>
+        <td id="i">An icon font might fail because 1) it's being loaded cross-domain without the proper CORS headers and Firefox doesn't like that 2) for any reason, the font file fails to load (network hiccup, server failure, etc) 3) There is some weird Chrome bug that dumps the @font-face and shows a fallback font instead 4) Surprising browser doesn't support @font-face.
+<p class="ko">아이콘 폰트은 다음과 같은 이유 때문에 실패할 수 있습니다. 1) 적절한 CORS 헤더없이 크로스 도메인을로드 그리고 파이어 폭스는 좋아하지 않는다 2) 어떤 이유로, 폰트 파일은 로드되지 않는다.(네트워크 hiccup, 서버 고장 등) 3)@font-face를 덤프 대신 대체 글꼴을 보여줍니다 몇 가지 이상한 크롬 버그가 있습니다 4)Surprising 브라우저 @font-face를 지원하지 않습니다.</p><br>
+Font failures are pretty common for a variety of reasons. Plus, if you try and do something clever like map icons to "Private Use Area" of unicode and the font fails, it may do something really weird like show an unexpected emoji, because the environment you're in uses that same area for emoji. Or that emoji might even overrule your glyphs!<p class="ko">폰트 실패는 여러 가지 이유로 매우 일반적이다. 당신이 시도하고 유니 코드의지도 아이콘을 "개인 사용 영역"과 같은 영리한 뭔가를하고 글꼴이 실패 할 경우에있어 환경이 이모티콘에 대해 동일한 영역을 사용하기 때문에 플러스, 그것은 같은 예기치 않은 이모티콘을 보여 정말 이상한 일을 할 수있다 . 또는 이모티콘은 당신의 상형 문자를 좌우할 수도 있습니다!</p></td>
+                  <td id="j">Inline SVG is right in the document. If the browser supports it, it displays it.<p class="ko">inline SVG는 문서의 권리입니다. 브라우저가 지원하는 경우 그것을 표시합니다.</p></td>
+       
+      </tr></tbody>
+             </table></div></div></div></div>                                     <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+                 <!-- Container (About Section) -->
+<div id="Forced" class="container-fluid">
+             <div class="row bg-danger">
+    <div class="col-sm-12 well">
+          <h3>Forced Failures</h3>
+              <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+         <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>Forced Failures</b></td>
+        <td id="i">
+
+▶Proxy browsers like Opera Mini or UC Browser don't support @font-face at all, even though they sometimes report that they do. So even if you try to feature detect, it may fail.
+            <p class="ko">오페라 미니 또는 UC 브라우저와 같은 프록시 브라우저들은 틈날때 보고를 함에도 불구하고, 전혀 @font-face를 지원하지 않습니다. 당신이 감지 기능을 시도하였다하더라도, 그것은 실패 할 수 있습니다.</p><br>
+▶Some people force their own fonts over yours, for example in a user stylesheet or a browser extension specifically for applying custom styles. For instance, one that applies a font better for people with dyslexia. (More on the issues with icon font accessibility from Seren D.)<p class="ko">어떤 사람들은 당신만을 위해 자신의 글꼴을 사용자 스타일 시트 또는 사용자 지정 스타일을 적용하기위한 구체적 브라우저를 적용하기도 한다. 예, 난독증을 가진 사람들을위한 더 나은 글꼴을 적용하는 것이 있다.(SEREN D.에서 아이콘 글꼴 접근성 문제에 대한 기타)</p><br>
+▶Blocking technology can either automatically or offer to block custom fonts. (reference)<p class="ko">차단 기술은 자동적으로 또는 제공 사용자 정의 글꼴을 차단 할 수 있습니다. (참고)</p></td>
+                  <td id="j">Even those proxy browsers support SVG. Blockers don't care about SVG.
+                  <p class="ko">심지어 그 프록시 브라우저는 SVG를 지원합니다. 차단제는 SVG 걱정하지 않는다.</p></td>
+       
+      </tr></tbody>
+                  </table></div>
+        <div class="col-sm-4"><img src="img/Forced.png"><br>Ad blocker offering to totally block custom fonts.<p class="ko">광고 차단 기능을 제공하는 사용자 정의 글꼴을 완전히 차단합니다.</p></div>
+        <div class="col-sm-8"><img src="img/forced.jpg"><br>Forcing a different font upon a page can destroy an icon font system.<p class="ko">페이지에 다른 글꼴이 강제로 아이콘 폰트 시스템을 파괴 할 수 있습니다.</p></div></div></div></div>                                     <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+               <!-- Container (About Section) -->
+<div id="Semantics" class="container-fluid">
+                  <div class="row bg-danger">
+    <div class="col-sm-12 well">
+          <h3>Semantics</h3>
+         <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+       <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>Semantics</b></td>
+        <td id="i">To use responsibly, you're injecting the icon via a pseudo element on an (empty)  &#60;span&#62; . Either bad or no semantics, depending on how you feel about that kind of thing.<p class="ko">당신은 (빈) &#60;SPAN&#62;에 의사 요소를 통해 아이콘을 주입하고, 책임감있게 사용합니다. 나쁘거나 아무 의미 없거나, 당신이 그런 종류에 대해 어떻게 생각하는지에 따라 달라집니다.</p></td>
+                  <td id="j">Icons are little images. The semantics of  &#60;svg&#62; says "I'm an image." Seems better to me.<p class="ko">아이콘은은 작은 이미지입니다. &#60;svg&#62;의 의미는 "나는 이미지입니다."라고 보기에 더 낫다.</p></td>
+       
+      </tr>
+        </tbody>
+             </table></div></div></div></div>
+                                         <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+                      <!-- Container (About Section) -->
+<div id="Accessibility" class="container-fluid">
+             <div class="row bg-danger">
+    <div class="col-sm-12 well">
+          <h3>Accessibility</h3>
+             <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>Accessibility</b></td>
+        <td id="i">You have to be quite careful with icon fonts to make sure you do it in an accessible way. You should basically do everything in this article. You're always fighting to make sure that the icon itself isn't read (but something else is) and that hard-to-detect fail states are handled.<p class="ko">당신은 당신이 접근 방법으로 그것을 확인하는 아이콘 글꼴 매우 조심해야합니다. 당신은 기본적으로이 문서의 모든 일을해야한다. 당신은 항상 아이콘 자체는 읽을 수 없게 되어 있는지 확인하기 위해 부딪힙힙니다.(하지만 뭔가 다른 것입니다) 그 어려운 감지 상태를 처리하는 실패합니다.</p></td>
+               <td id="j">I'm no expert, but research suggests using the proper combination of elements and attributes ( &#60;title&#62;,  &#60;desc&#62;, and aria-labelledby) you can convey good information across the browser specturm. Plus no weird fail states.<p class="ko">내가 전문가는 아니지만, 연구 요소의 적절한 조합을 사용하여 제안 및 속성 (&#60;제목&#62;, &#60;DESC&#62;, 그리고 아리아 - labelledby) 브라우저의 specturm에서 좋은 정보를 전달 할 수 있습니다. 게다가 더 이상이 상태를 실패하지 않습니다.</p></td>
+
+      </tr>
+         </tbody>
+                 </table></div></div></div></div>
+                                     <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+                <!-- Container (About Section) -->
+<div id="Ease" class="container-fluid">
+                 <div class="row bg-danger">
+    <div class="col-sm-12 well">
+          <h3>Ease of Use</h3>
+         <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>Ease of Use</b></td>
+        <td id="i" >Using a pre-created icon font was never particularly responsible (too many unused icons). Creating your own icon font was never overly comfortable. I think the best were Pictos Server (limited to Pictos icons) and IcoMoon (free login to save projects). Fontello has an API I didn't see it used to make a good build tool.<p class="ko">미리 만든 아이콘 폰트를 사용하면 결코 특히 책임 (너무 많이 사용하지 않는 아이콘)이었다. 당신의 자신의 아이콘 폰트를 만들기 지나치게 편안한 적이 없었다. 나는 가장 PICTOS (PICTOS 아이콘에 한함) 서버 및 IcoMoon를 (무료 로그인이 프로젝트를 저장합니다)라고 생각. Fontello 나는 그것이 좋은 빌드 도구를 만드는 데 사용 보지 못했다 API를 가지고있다.</p></td>
+                  <td id="j">The inline SVG system is easier because you can do it all by hand if needed. Or use a tool like IcoMoon (exports either way). Or use a build tool.<p class="ko">필요한 경우 손으로 모든 것을 할 수 있기 때문에 인라인 SVG 시스템은 쉽다. 또는 IcoMoon 같은 도구를 (어느 쪽이든 수출)를 사용합니다. 아니면 빌드 도구를 사용합니다.</p></td>
+       
+      </tr>
+         </tbody>
+             </table></div></div></div>
+                                                          <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+                     <!-- Container (About Section) -->
+<div id="Support" class="container-fluid">
+             <div class="row bg-danger">
+    <div class="col-sm-12 well">
+        <h3>Browser Support</h3>
+         <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+      <th class="col-sm-2">★</th>
+        <th class="col-sm-5">Icon Font</th>
+          <th class="col-sm-5">Inline SVG</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+                  <td class="i"><b>Browser Support</b></td>
+        <td id="i">Very deep. Even IE 6.
+                  <p class="ko">매우 짙다. 심지어 IE 6.</p></td>
+                  <td id="j">Decent, but problems are IE 8- and Android 2.3-. Fallbacks doable but not wonderful.<p class="ko">괜찮아보이지만 문제는 IE 8과 안드로이드 2.3- 있습니다. 대비책을 줍니다. 하지만 완벽하지않습니다.</p></td>
+       
+      </tr>
+         </tbody>
+             </table></div></div></div>
+ 
+
+                                         <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div><br>
+                   <!-- Container (About Section) -->
+<div id="Winner" class="container-fluid">
+                 <div class="row bg-danger">
+    <div class="col-sm-12 well bg-info text-success">
+        <center><h3>Winner</h3></center>
+        <center><p>It all comes down to browser support. If you can go IE 9+ / Android 3+, inline SVG is better at pretty much everything than icon fonts. If you need the deeper browser support, I feel like an inline SVG fallback would be too big of a pain to be worth it (maintaining a PNG copy, inserting an additional element to display PNG version, hiding SVG element... it's weighty).</p></center>
+  
+        <button data-toggle="collapse" data-target="#dem" class="z"><b>Winner 부문 해석</b></button>
+
+<div id="dem" class="collapse">
+    <center><h3 class="ko">승자는!!</h3></center>
+        <center><p class="ko">그것은 모든 브라우저 지원까지 제공됩니다. 당신이 IE 9 +/ 안드로이드 3 이상을 갈 수 있다면, 인라인 SVG는 아이콘 폰트에 비해 거의 모든 더 나은입니다. 당신이 깊은 브라우저 지원이 필요한 경우, 내가 SVG 대체가 가치가 고통이 너무 큰 것 인라인 같은 느낌 (SVG 요소를 숨기고, PNG 버전을 표시하기 위해 추가 요소를 삽입, PNG 사본을 유지 ... 그것은 무게입니다) .</p></center>
+
+        </div>
+                     </div></div></div>
+                     
+                       <footer>
+                        <div>    <a class="up-arrow" href="#select" data-toggle="tooltip" title="선택버튼으로~!!">
+                            <mark id="ma"> <span class="glyphicon glyphicon-arrow-up">선택 버튼으로 돌아갑시다!!!</span></mark></a></div>
+          <div class="row bg-danger"> 
+              <div class="col-sm-12 well">
+                  
+                  <a id="a" href="http://hotdog.woobi.co.kr/"><center>HOME COMEBACK</center></a></div>
+         </div>
+     </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>

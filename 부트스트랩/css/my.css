@@ -1,0 +1,41 @@
+
+.jumbotron {
+    background-color: aqua;
+}
+
+.col-sm-5 {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+.col-sm-4 {
+    background-color: orange;
+    color: blue;
+}
+
+.col-sm-3 {
+    background-color: chartreuse;
+    color: crimson;
+}
+
+.col-sm-8 {
+    background-color: bisque;
+}
+
+.col-sm-7 {
+    background-color: black;
+    color: chartreuse;
+}
+
+#link {
+    color: brown;  
+}
+
+.col-sm-12 {
+ background-color: aqua;
+    
+}
+
+#a {
+    color: black;
+}

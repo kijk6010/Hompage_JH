@@ -1,0 +1,51 @@
+
+.w {
+    color:snow;
+    font-size: 50px;
+}
+.f {
+   
+    position: fixed;
+    bottom: 20px;
+    left: 100px;
+    right: 100px;
+    font-size: 20px;
+}
+.g {
+    color: aliceblue;
+}
+
+.ta {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    outline-color: yellow;
+    outline-style: groove;
+    font-family: fantasy;
+    font-size: 20px;
+  
+}
+
+.ca {
+    color: snow;
+    text-shadow: 0 0 10px yellow;
+    outline-color:yellow;
+    outline-style: groove;
+    
+}
+
+.snow {
+    color: navy;
+     text-shadow: 0 0 10px blue;
+}
+
+.mc {
+    color: azure;
+     text-shadow: 0 0 10px red;
+}
+
+.c {
+    color: antiquewhite;
+    text-shadow: 0 0 10px blue;
+    
+}
